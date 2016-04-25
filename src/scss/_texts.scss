@@ -1,0 +1,23 @@
+p {
+	font-family: 'Muli', sans-serif;
+	font-size: 1rem;
+	color: #002025;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #ff4444;
+}
+
+a:hover {
+	text-decoration: none;
+  	color:#fff;
+}
+
+@media all and (min-width: 1023px) {
+  p {
+    font-size: 1rem;
+    text-align: left;
+  }
+}

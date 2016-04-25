@@ -1,0 +1,99 @@
+h1 {
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+  float: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:#ff4444;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color:#002025;
+  float: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-family:'Muli', sans-serif;
+	color: #002025;
+}
+
+h4 {
+	font-size: 1.2rem;
+	font-family: 'Muli', sans-serif;
+  color:#002025;
+
+}
+
+h5 {
+	font-size: 1rem;
+	font-family: 'Muli', sans-serif;
+  color:#002025;
+}
+
+h6 {
+	font-size: 1rem;
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+}
+
+@media all and (min-width: 768px) {
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+}
+
+@media all and (min-width: 1024px) {
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.50rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+}

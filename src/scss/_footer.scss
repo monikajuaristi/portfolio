@@ -1,0 +1,12 @@
+.footer {
+  	background-color:#d3d3d3;
+  	height: 60px;
+  	display:block;
+  	text-align: center;
+}
+
+@media all and (min-width: 1024px) {
+	.footer {
+		font-size: 1.25rem;
+	}
+}

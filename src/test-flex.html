@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+
+	<style>
+		body {
+			width: 60em;
+			margin: 0 auto;
+			background-color: salmon;
+		}
+
+		.container-flex {
+			background-color: gold;
+			padding: 4rem 0;
+			display: flex;
+		}
+		.item-flex {
+			padding: 2rem;
+			outline: 2px solid red;
+			outline-offset: -2px;
+			flex-grow: 1;
+			margin: 0 1rem;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container-flex">
+		<div class="item-flex">item 1</div>
+		<div class="item-flex">item 2</div>
+		<div class="item-flex">item 3</div>
+	</div>
+</body>
+</html>
