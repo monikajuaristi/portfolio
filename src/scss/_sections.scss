@@ -15,9 +15,6 @@ section{
 
     .container-flex {
         padding: 4rem 0;
-        display: flex;
-        flex-direction: column;     
-        -webkit-flex-direction: column;  
     }
     .item-flex {
         padding: 2rem;
@@ -55,7 +52,10 @@ section{
     }
 
 @media all and (min-width: 1024px) {
-
+    .container-flex {
+        padding: 4rem 0;
+        display:flex;
+    }
         .uno {
             padding: 2rem;
             outline-offset: -2px;
