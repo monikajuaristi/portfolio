@@ -1,132 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>MonikaJuaristi</title>
-    <meta name="description" content="portfolio de Monika Juaristi">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Monika Juaristi">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900|Muli:400,300' rel='stylesheet' type='text/css'><link href='https://fonts.googleapis.com/css?family=Raleway:400,300,100,200,500,600,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700' rel='stylesheet' type='text/css'>
-    <script src="js/jquery.js"></script>
+  <meta charset="utf-8">
+  <title>MonikaJuaristi</title>
+  <meta name="description" content="portfolio de Monika Juaristi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Monika Juaristi">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Muli:400,300|Raleway:400,300,100,200,500,600,700|Open+Sans:400,300,300italic,400italic,600,700' rel='stylesheet' type='text/css'>
+  <script src="js/jquery.js"></script>
 </head>
 
 <body>
 
 <!--HEADER--> 
-  <header class="header">
-    <div class="container">     
-     <div class="logo"><a href="index.html"><strong>M</strong>ONIKA<strong>J</strong>UARISTI</a></div>
-      <nav class="menu-desktop">
-        <a class="menu-item" href="#servicios">Servicios</a>
-        <a class="menu-item" href="#about">Sobre mí</a>
-        <a class="menu-item" href="#contacto">Contacto</a>
-      </nav>
-    </div>
-
-    <div class="menu-mobile visible-xs closed">
-          <a class="btn-anim-three">
-              <span class="one"></span>
-              <span class="two"></span>
-              <span class="three"></span>
-          </a>
-          <ul class="menu" role="sidebar">
-            <li>
-                  <a href="#servicios">Servicios</a>
-              </li>
-              <li>
-                  <a href="#about">Sobre mí</a>
-              </li>
-              <li>
-                  <a href="#contacto">Contacto</a>
-              </li>
-          </ul>
-      </div>
-  </header>
+<header class="header">
+  <div class="logoHeader"><a href="index.html" class="logo">
+    <img src="img/logo.png" class="logo-monikajuaristi" alt="Logotipo Monika Juaristi">
+    </a></div>
+      <div class="menu-mobile closed">
+        <a class="btn-anim-three">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </a>
+      <ul class="nav-menu" role="sidebar">
+        <li class="menu-item">
+          <a class="menu-item-style" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item-style" href="#about">Sobre mí</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item-style" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+  </div>
+</header>
 
 <!--PORTADA-->    
-  <section id='portada'>
-    <div class="container">   
-  </section>
-
-<!--SERVICIOS-->  
-<section id='servicios'>
+<section id='portada'>
   <div class="container">
-   <h1>Servicios</h1>
-    <div class="container-flex">
-   <div class='servicios-item uno'>
-     <h2>DISEÑO WEB</h2>
-     <p>Como diseñadora Frontend, diseño y maqueto páginas web desde cero con HTML5, CSS3 y JavaScript, y/o adapto templates para Wordpress.</p>
-     <div class="btn"><a href="">Ver trabajos</a></div>
-   </div>
-   <div class='servicios-item dos'>
-    <h2>DISEÑO GRÁFICO</h2>
-    <p>Puedo constituir toda la imagen corporativa de una entidad: logotipo, papelería, merchandising, carteles, folletos informativos...</p>
-    <div class="btn"><a href="">Ver trabajos</a></div>
-  </div>
-  <div class='servicios-item tres'>
-    <h2>AUDIOVISUALES</h2>
-    <p>Se trabajar en todas las fases de la producción de contenidos audiovisuales. Realizo spots, videoclips, banners animados, cortometrajes y demás.</p>
-    <div class="btn"><a href="">Ver trabajos</a></div>
+    <div class="logo"> <img src="img/logo.svg" widht=10px height=100px> </div>
+      <h1>DISEÑO y DESARROLLO WEB</h1>
+      <h2>Monika Juaristi Larrañaga</h2>
+        <div class="social">
+          <a href="https://www.facebook.com/monika.juaristi" target="_blank"><img alt="sigueme en facebook" height="40" src="img/social-f.svg" width="40" /></a>
+          <a href="https://twitter.com/monikajuaristi" target="_blank"><img alt="sigueme en twitter" height="40" src="img/social-t.svg" width="40" /></a>
+          <a href="https://plus.google.com/u/0/115997946086892505288/posts" target="_blank"><img alt="sigueme en google plus" height="40" src="img/social-g.svg" width="40" /></a>
+        </div>
   </div>  
-    </div>
-    </div>
-    <div class="slideshow">
-      <div class="prev">&lt;</div>
-      <div class="next">&gt;</div>
-        <ul class="slides">
-          <li id="slide-1" data-n="1"></li>
-          <li id="slide-2" data-n="2"></li>
-          <li id="slide-3" data-n="3"></li>
-          <li id="slide-4" data-n="4"></li>
-        </ul>
-        <ul class="nav">
-          <li id="nav-1" data-cd="1"></li>
-          <li id="nav-2" data-cd="2"></li>
-          <li id="nav-3" data-cd="3"></li>
-          <li id="nav-4" data-cd="4"></li>
-        </ul>
+</section>
+
+<!--PROYECTOS-->  
+<section id='proyectos'>
+  <div class="container">
+    <h3>Proyectos</h3>
+    <div class="barra-seccion"></div>
       </div>
-    </div>
+      <div class="grid g-imagenes">
+        <a href="obsocial.html"><h4>Proyecto Obsocial</h4><img class="grid" src= "img/mc-web1.jpg" alt="mockup Obsocial" target="_blank"></a>
+        <a href="zirt-zart.html"><h4>Proyecto Zirt-Zart</h4><img class="grid" src="img/mc-web2.jpg" alt="mockup Zirt-Zart"></a>
+        <a href="eltaller.html"><h4>Proyecto El Taller</h4><img class="grid" src="img/mc-web4.jpg" alt="mockup El Taller"></a>
+      </div>
+  </div>
 </section>
 
 <!--SOBRE MÍ-->  
- <section id="about">
- <div class="container">
-  <h1>Sobre mí</h1>
-  <div class="about-item item-uno">
-  <p>Yuri Berchiche, David Zurutuza, Mikel Oyarzabal y Carlos Vela no han podido entrenar esta mañana con el resto de sus compañeros, al regresar con distintos golpes del encuentro de ayer frente al Villarreal. Los tres primeros no parece que vayan a tener problemas para poder jugar el sábado que viene contra el Real Madrid, pero el azteca no podrá hacerlo por ver la quinta amarilla y ser sancionado con un partido.</p>
-  <p>La Real ha vuelto a Zubieta, tras regresar de madrugada de Villarreal y ha realizado el primer ensayo de la semana, suave para los que fueron titulares y más intenso para los que no lo hicieron.</p>
-  <p>Entre los primeros no han estado Vela, Zurutuza, Oyarzabal y Yuri, por molestias de golpes que recibieron en El Madrigal. Con el resto de los que salieron de inicio ha estado Jonathas, que fue baja ante los de Marcelino por un dolor en su rodilla izquierda que parece que ya tiene casi olvidado, por lo que estará en condiciones de jugar contra el Real Madrid, si Eusebio lo considera conveniente.</p>
+<section id='about'>
+  <div class="container">
+    <h3>Sobre mí</h3>
+      <div class="barra-seccion"></div>
+        <div class="about-img"><img src="img/monika-juaristi.jpg" alt="foto Monika Juaristi"></div>
+        <div class="about-text">
+          <h4>Información general</h4>
+          <p>Soy <strong>Monika Juaristi Larrañaga</strong>. Soy de Azpeitia (Gipuzkoa), pero actualmente resido en Sant Cugat del Vallès (Barcelona). En el 2012 me licencié <a fref="http://www.mondragon.edu/eu/ikasketak/graduak/gradua-ikus-entzunezko-komunikazioa/"><strong>en Comunicación Audiovisual</strong></a> en la Facultad Huhezi de Mondragon Unibertsitatea; en el 2015 obtuve el título de <a href"http://www.ceinpro.es/ciclos-formativos/diseno-y-edicion-de-publicaciones-impresas-y-multimedia"><strong>Grado Superior en Diseño Gráfico</strong></a> y ahora estou cursando un <a href"http://www.baued.es/es/estudios/masters-y-posgrados/master-en-diseno-web"><strong>máster en Diseño Web</strong></a> en la Universidad de Diseño <strong>BAU</strong> de Barcelona.</p>
+          <h4> Herramientas de trabajo</h4>
+            <div class="iconos">
+              <img alt"icono html" height="50" src="img/html-icon.svg">
+              <img alt"icono css" height="50" src="img/css-icon.svg">
+              <img alt"icono javascript" height="50" src="img/js-icon.svg">
+              <img alt"icono illustrator" height="50" src="img/ai-icon.svg">
+              <img alt"icono photoshop" height="50" src="img/ps-icon.svg">
+            </div>
+              <div class="btn"><a href="https://drive.google.com/open?id=0B7zxhqktYM0CdDlWRjIteE1lM1U">Descarga mi CV</a></div>
+        </div>
   </div>
-  <div class="about-item item-dos">
-  </div>
-</div>
 </section>
 
 <!--CONTACTO-->  
- <section id="contacto">
- <div class="container">
-   <h1>Contacto</h1>
-      <h6>Nombre y apellidos</h6>
-      <form><input type="text" placeholder="Escribe aquí tu nombre" required="">
+<section id='contacto'>
+  <div class="container">
+    <h3>Contacto</h3>
+    <div class="barra-seccion"></div>
+      <form>
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] input" placeholder="Name" id="name" />
+        <input name="email" type="text" class="validate[required,custom[email]] input" id="email" placeholder="Email" />
+        <textarea name="text" class="validate[required,length[6,300]] input" id="comment" placeholder="Comment"></textarea>
+        <div class="btn"><a href="">Enviar mensaje</a></div>
       </form>
-      <h6>Correo electrónico</h6>
-      <form><input type="text" placeholder="Escribe aquí tu correo electrónico" required="">
-      </form>
-      <h6>Mensaje</h6>
-      <form><input type="text" placeholder="Escribe aquí tu mensaje" required="">
-      </form>
-      <div class="btn"><a href="">Enviar mensaje</a></div>
-      </div>
+      <div class="social">
+    <a href="https://www.facebook.com/monika.juaristi" target="_blank"><img alt="sigueme en facebook" height="40" src="img/social-f-c.svg" width="40" /></a>
+    <a href="https://twitter.com/monikajuaristi" target="_blank"><img alt="sigueme en twitter" height="40" src="img/social-t-c.svg" width="40" /></a>
+    <a href="https://plus.google.com/u/0/115997946086892505288/posts" target="_blank"><img alt="sigueme en google plus" height="40" src="img/social-g-c.svg" width="40" /></a>
+  </div>  
+  </div>
 </section>
-</div>
 
-<div class="footer"><a href="index.html"><strong>M</strong>ONIKA<strong>J</strong>UARISTI</a></div>
-</div>
-    <script src="js/app.js"></script>
-    <script src="js/slider.js"></script>
+<!--FOOTER-->
+<footer class="footer">
+  <div class="logoFooter"><a href="index.html" class="logo">
+      <img src="img/logo.png" class="logo-monikajuaristi" alt="Logotipo Monika Juaristi">
+    </a></div>
+</footer>
+  <script src="js/app.js"></script>
 </body>
+
 </html>

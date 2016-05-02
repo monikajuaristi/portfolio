@@ -1,10 +1,9 @@
 h1 {
 	font-family: 'Raleway', sans-serif;
-	width:100%;
   float: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  color:#ff4444;
+  color:$color-secundario;
   text-align: center;
   text-transform: uppercase;
 }
@@ -13,38 +12,39 @@ h2 {
 	font-family: 'Raleway', sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
-  color:#002025;
-  float: center;
+  color:$color-principal;
   text-align: center;
-  text-transform: uppercase;
 }
 
 h3 {
-	font-size: 1.2rem;
-	font-family:'Muli', sans-serif;
-	color: #002025;
+	font-size: 1.25rem;
+	font-family:'Raleway', sans-serif;
+	color:$color-secundario;
+  text-align:center;
 }
 
 h4 {
 	font-size: 1.2rem;
-	font-family: 'Muli', sans-serif;
-  color:#002025;
+	font-family: 'Raleway', sans-serif;
+  color:$color-principal;
+  text-align:center;
 
 }
 
 h5 {
 	font-size: 1rem;
-	font-family: 'Muli', sans-serif;
-  color:#002025;
+	font-family: 'Raleway', sans-serif;
+  color:$color-azulclaro;
+  text-align:center;
 }
 
 h6 {
 	font-size: 1rem;
-	font-family: 'Muli', sans-serif;
-	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	color: $color-blanco;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: $tablet-width) {
 h1 {
   font-size: 1.5rem;
 }
@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 h4 {
@@ -71,7 +71,7 @@ h6 {
 }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: $desktop-width) {
 h1 {
   font-size: 2rem;
 }
@@ -81,11 +81,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 
 }
 

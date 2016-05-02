@@ -1,0 +1,35 @@
+.logoHeader {
+	margin-left:5%;
+    text-align:center;
+    margin-top:0.9rem;
+}
+
+.logo {
+	float:center;
+	margin:0 0 50px 0;
+	text-align: center;	
+	padding-top: 13rem;
+}
+
+.logoProducto {
+    text-align:center;
+    margin-top:0.9rem;
+}
+
+.logoFooter {
+	margin-top:0.6rem;
+}
+
+@media all and (min-width: $desktop-width) {
+.logoHeader {
+    width: 10rem;
+    float: left;
+    margin-top:0.9rem;
+  }
+
+.logoHeader {
+    width: 10rem;
+    float: center;
+    margin-top:0.9rem;
+  }
+}

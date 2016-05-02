@@ -1,16 +1,23 @@
 p {
 	font-family: 'Muli', sans-serif;
 	font-size: 1rem;
-	color: #002025;
+	color: $color-principal;
 	text-align: center;
 }
 
 a {
 	text-decoration: none;
-	color: #ff4444;
+	color: $color-principal;
 }
 
 a:hover {
 	text-decoration: none;
-  	color:#fff;
+  	color:$color-secundario;
+}
+
+@media all and (min-width:$desktop-width) {
+	p {
+	font-size: 1.2rem;
+	text-align: justify;
+}
 }

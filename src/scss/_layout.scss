@@ -1,4 +1,15 @@
 .container{
-	margin: 1rem auto;
-	width: 90%;
+	margin: auto;
+	width: 80%;
 }
+
+.barra-seccion {
+  border-bottom: 0.3rem solid $color-secundario;
+  width: 5%;
+  margin:auto;
+  margin-bottom:20px;
+  text-align: center;
+}
+
+
+
