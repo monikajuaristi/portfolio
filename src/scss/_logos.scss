@@ -2,12 +2,13 @@
 	margin-left:5%;
     text-align:center;
     margin-top:0.9rem;
+    visibility:hidden;
 }
 
 .logo {
 	margin:0 0 50px 0;
 	text-align: center;	
-	padding-top: 4rem;
+	padding-top: 3rem;
 }
 
 .logoProducto {
@@ -24,17 +25,12 @@
     width: 10rem;
     float: left;
     margin-top:0.9rem;
+    visibility:visible;
   }
 
 .logo {
     margin:0 0 50px 0;
     text-align: center; 
     padding-top: 13rem;
-}
-
-.logoProducto {
-    width: 10rem;
-    float: center;
-    margin-top:0.9rem;
-  }
+    }
 }
