@@ -15,6 +15,7 @@ section{
   background-color:$color-gris;
   justify-contenet:center;
   vertical-align:middle;
+  height: 100vh;
 }
 
 .social {
@@ -82,6 +83,7 @@ section{
 }
 .about-img img{
   border-radius: 50%;
+  width: 90%;
 }
 .iconos {
   text-align: center;

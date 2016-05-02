@@ -224,7 +224,7 @@ body {
   float: center;
   margin: 0 0 50px 0;
   text-align: center;
-  padding-top: 5rem; }
+  padding-top: 4rem; }
 
 .logoProducto {
   text-align: center;
@@ -488,7 +488,8 @@ section {
 #portada {
   background-color: #d3d3d3;
   justify-contenet: center;
-  vertical-align: middle; }
+  vertical-align: middle;
+  height: 100vh; }
 
 .social {
   text-align: center;
@@ -541,7 +542,8 @@ section {
   text-align: center; }
 
 .about-img img {
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 90%; }
 
 .iconos {
   text-align: center; }
