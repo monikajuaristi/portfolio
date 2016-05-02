@@ -218,7 +218,6 @@ body {
 .logoHeader {
   margin-left: 5%;
   text-align: center;
-  margin-top: 0.9rem;
   visibility: hidden; }
 
 .logo {
@@ -476,7 +475,6 @@ section {
   width: 100%; }
 
 .header {
-  overflow: hidden;
   background-color: #d3d3d3; }
 
 /* PORTADA */
