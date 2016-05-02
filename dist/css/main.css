@@ -232,6 +232,10 @@ body {
 .logoFooter {
   margin-top: 0.6rem; }
 
+@media all and (min-width: 768px) {
+  .logo {
+    padding-top: 10rem; } }
+
 @media all and (min-width: 1024px) {
   .logoHeader {
     width: 10rem;
@@ -239,8 +243,6 @@ body {
     margin-top: 0.9rem;
     visibility: visible; }
   .logo {
-    margin: 0 0 50px 0;
-    text-align: center;
     padding-top: 13rem; } }
 
 .btn {

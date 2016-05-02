@@ -19,6 +19,12 @@
 	margin-top:0.6rem;
 }
 
+@media all and (min-width: $tablet-width) {
+    .logo {
+        padding-top: 10rem;
+    }
+}
+
 @media all and (min-width: $desktop-width) {
 .logoHeader {
     width: 10rem;
@@ -28,8 +34,6 @@
   }
 
 .logo {
-    margin:0 0 50px 0;
-    text-align: center; 
     padding-top: 13rem;
     }
 }
