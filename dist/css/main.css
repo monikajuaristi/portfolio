@@ -359,7 +359,7 @@ h6 {
     display: block; }
   .menu-mobile {
     position: fixed;
-    height: 30%;
+    height: 50%;
     top: 0;
     right: 0;
     width: 100%;
@@ -481,8 +481,7 @@ section {
 
 .header {
   overflow: hidden;
-  background-color: #d3d3d3;
-  height: 65px; }
+  background-color: #d3d3d3; }
 
 /* PORTADA */
 #portada {
@@ -626,7 +625,8 @@ input:focus, textarea:focus {
 
 @media all and (min-width: 1024px) {
   .header {
-    border-bottom: 1px solid #F20000; }
+    border-bottom: 1px solid #F20000;
+    height: 65px; }
   .g-imagenes {
     -webkit-column-count: 3;
     -moz-column-count: 3;
