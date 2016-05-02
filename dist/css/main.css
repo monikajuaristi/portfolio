@@ -625,8 +625,6 @@ input:focus, textarea:focus {
     column-width: 30%; } }
 
 @media all and (min-width: 1024px) {
-  .portada {
-    height: 100vh; }
   .header {
     border-bottom: 1px solid #F20000; }
   .g-imagenes {
