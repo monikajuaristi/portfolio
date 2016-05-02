@@ -27,16 +27,24 @@
     padding: 0;
     margin-top: 50px;
   }
-  .menu-mobile .nav-menu > li {
+
+  ul {
     list-style: none;
+    text-align: center;
+    padding-top: 1rem;
   }
-  .menu-mobile .nav-menu > li > a{
+  
+  li  {
+    padding-top: 1rem;
+  }
+  a{
     list-style: none;
     font-size: 20px;
     font-weight: 300;
     color: $color-principal;
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform:uppercase;
+    text-align: center;
   }
 
 .menu-mobile .nav-menu > li > a:hover{
