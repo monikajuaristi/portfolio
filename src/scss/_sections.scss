@@ -12,7 +12,6 @@ section{
 /* PORTADA */
 
 #portada {
-  height: 100vh;
   background-color:$color-gris;
   justify-contenet:center;
   vertical-align:middle;
@@ -180,6 +179,9 @@ input:focus, textarea:focus {
 
 @media all and (min-width: $desktop-width) {
 
+.portada {
+    height: 100vh;
+}
 .header {
     border-bottom:1px solid $color-secundario;
 }
@@ -235,5 +237,10 @@ input:focus, textarea:focus {
   width: 60%;
   float: right;
   vertical-align:middle;
+}
+
+.social {
+  text-align:center;
+  margin:2rem 0;
 }
 }

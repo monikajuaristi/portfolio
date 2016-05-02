@@ -224,7 +224,7 @@ body {
   float: center;
   margin: 0 0 50px 0;
   text-align: center;
-  padding-top: 13rem; }
+  padding-top: 5rem; }
 
 .logoProducto {
   text-align: center;
@@ -238,7 +238,12 @@ body {
     width: 10rem;
     float: left;
     margin-top: 0.9rem; }
-  .logoHeader {
+  .logo {
+    float: center;
+    margin: 0 0 50px 0;
+    text-align: center;
+    padding-top: 13rem; }
+  .logoProducto {
     width: 10rem;
     float: center;
     margin-top: 0.9rem; } }
@@ -481,7 +486,6 @@ section {
 
 /* PORTADA */
 #portada {
-  height: 100vh;
   background-color: #d3d3d3;
   justify-contenet: center;
   vertical-align: middle; }
@@ -619,6 +623,8 @@ input:focus, textarea:focus {
     column-width: 30%; } }
 
 @media all and (min-width: 1024px) {
+  .portada {
+    height: 100vh; }
   .header {
     border-bottom: 1px solid #F20000; }
   .g-imagenes {
@@ -656,4 +662,7 @@ input:focus, textarea:focus {
   .about-text {
     width: 60%;
     float: right;
-    vertical-align: middle; } }
+    vertical-align: middle; }
+  .social {
+    text-align: center;
+    margin: 2rem 0; } }
